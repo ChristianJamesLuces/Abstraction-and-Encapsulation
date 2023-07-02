@@ -15,6 +15,11 @@ class TestFan:
         print("On: ", fan1.get_on())
 
     #Display the properties of fan2
+        print("\nFan 2: ")
+        print("Speed: ", fan2.get_speed())
+        print("Radius: ", fan2.get_radius())
+        print("Color: ", fan2.get_color())
+        print("On: ", fan2.get_on())
 
 test_fan = TestFan()
 test_fan.main()
