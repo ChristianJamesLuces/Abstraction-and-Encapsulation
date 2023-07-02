@@ -1,5 +1,9 @@
 from pet import Pet
 
 #Create a class
-#Initialize the variable to store pet details
-#Ask the user inputs
+class Pet:
+    #Add a constructor
+    def __init__(self):
+        self.pet = Pet()
+
+    #Ask the user inputs
