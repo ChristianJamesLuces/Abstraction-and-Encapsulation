@@ -1,7 +1,7 @@
 from pet import Pet
 
 #Create a class
-class Pet:
+class UserInterface:
     #Add a constructor
     def __init__(self):
         self.pet = Pet()
@@ -17,7 +17,10 @@ class Pet:
     
     def pet_age(self):
         age = input("Enter the age of your pet: ")
-        self.pet.set_age(type)
+        self.pet.set_age(age)
 
     #Display the pet details
-    
+    def display_pet_details(self):
+        print("Pet's Name: ", self.pet.get_name())
+        print("Pet's Type: ", self.pet.get_type())
+        print("Pet's Age: ", self.pet.get_age())
