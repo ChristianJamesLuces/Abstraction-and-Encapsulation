@@ -8,6 +8,7 @@ class Pet:
         self.__age = age
 
     #Create methods
+    #Setters
     def set_name(self, name):
         self.name = name
     
@@ -17,6 +18,7 @@ class Pet:
     def set_age(self, age):
         self.name = age
     
+    #Getters
     def get_name(self):
         return self.__name
     
