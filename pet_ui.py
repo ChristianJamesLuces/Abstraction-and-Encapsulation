@@ -4,7 +4,7 @@ from pet import Pet
 class UserInterface:
     #Add a constructor
     def __init__(self):
-        self.pet = Pet()
+        self.pet = Pet(" ", " ", " ")
 
     #Ask the user inputs
     def pet_name(self):
@@ -12,8 +12,8 @@ class UserInterface:
         self.pet.set_name(name)
 
     def pet_type(self):
-        type = input("Enter the type of your pet: ")
-        self.pet.set_type(type)
+        type = input("Enter the type of your pet (Ex. 'Dog', 'Cat', and 'Bird'): ")
+        self.pet.set_animal_type(type)
     
     def pet_age(self):
         age = input("Enter the age of your pet: ")
