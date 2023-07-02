@@ -1,8 +1,8 @@
-from Fan import Fan
+from fan import Fan
 
 #Create the objects
-fan1 = Fan (Fan.FAST, 10, "yellow", True)
-fan2 = Fan (Fan.MEDIUM, 5, "blue", False)
+fan1 = Fan(Fan.FAST, 10, "yellow", True)
+fan2 = Fan(Fan.MEDIUM, 5, "blue", False)
     
 #Display the properties of fan1
 print("Fan 1: ")

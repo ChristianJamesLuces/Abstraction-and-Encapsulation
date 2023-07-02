@@ -1,4 +1,4 @@
-from Car import Car
+from car import Car
 
 #Create a car object
 test_car = Car(2020, "Tesla")
