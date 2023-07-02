@@ -22,5 +22,5 @@ class UserInterface:
     #Display the pet details
     def display_pet_details(self):
         print("Pet's Name: ", self.pet.get_name())
-        print("Pet's Type: ", self.pet.get_type())
+        print("Pet's Type: ", self.pet.get_animal_type())
         print("Pet's Age: ", self.pet.get_age())
