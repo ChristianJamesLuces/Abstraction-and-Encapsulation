@@ -11,7 +11,7 @@ layout = [
 ]
 
 # Create the GUI window
-window = sg.Window("Car Speed", layout)
+window = sg.Window("Car Speed", layout, size = (250, 60))
 
 # Event loop to process GUI events
 while True:
